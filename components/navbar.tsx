@@ -52,7 +52,7 @@ const Navbar = () => {
         `}
       >
         <img 
-          className="h-4 lg:h-7" 
+          className="h-14 lg:h-18" 
           src="/images/logo.png" 
           alt="logo" 
         />
