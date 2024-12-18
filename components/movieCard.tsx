@@ -65,7 +65,7 @@ const MovieCard: React.FC<MovieCardProps> = ({
             <div
               className="
               z-10
-              bg-zinc-100
+              bg-zinc-700
               p-2
               lg:p-4
               absolute
