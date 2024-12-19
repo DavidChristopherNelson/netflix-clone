@@ -16,7 +16,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
           in: currentUser?.favoriteIds,
         }
       }
-    })
+    });
+
+    return res.status(200).json(favoriteMovies);
   } catch (error) {
     console.log(error);
     return res.status(400).end();

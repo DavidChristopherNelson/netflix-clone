@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 import axios from 'axios';
-import Input from "../components/input";
+import Input from "../components/Input";
 import { signIn } from 'next-auth/react';
 
 import {FcGoogle } from 'react-icons/fc';
@@ -22,8 +22,7 @@ const Auth = () => {
       await signIn('credentials', {
         email,
         password,
-        redirect: false,
-        callbackURL: '/profiles'
+        callbackUrl: '/profiles'
       });
     } catch (error) {
       console.log(error);

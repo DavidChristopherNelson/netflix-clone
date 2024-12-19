@@ -1,8 +1,8 @@
-import NavbarItem from "./navbarItem";
+import NavbarItem from "./NavbarItem";
 import { BsChevronDown, BsSearch, BsBell } from "react-icons/bs";
-import MobileMenu from "./mobileMenu";
+import MobileMenu from "./MobileMenu";
 import { useCallback, useState, useEffect } from "react";
-import AccountMenu from "./accountMenu";
+import AccountMenu from "./AccountMenu";
 
 const TOP_OFFSET = 66;
 
